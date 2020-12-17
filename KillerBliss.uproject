@@ -11,9 +11,20 @@
 		{
 			"Name": "AdvancedSessions",
 			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": false
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
-		"WindowsNoEditor"
+		"WindowsNoEditor",
+		"WindowsNoEditorWin32",
+		"MacNoEditor",
+		"AllDesktop"
 	]
 }
